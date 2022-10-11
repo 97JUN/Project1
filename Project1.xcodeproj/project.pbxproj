@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29BA007428F5AB61006E17E9 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BA007328F5AB61006E17E9 /* SecondViewController.m */; };
 		FD262AF528F309DC006C79D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD262AF428F309DC006C79D6 /* AppDelegate.m */; };
 		FD262AF828F309DC006C79D6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD262AF728F309DC006C79D6 /* SceneDelegate.m */; };
 		FD262AFB28F309DC006C79D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD262AFA28F309DC006C79D6 /* ViewController.m */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29BA007228F5AB61006E17E9 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		29BA007328F5AB61006E17E9 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		FD262AF028F309DC006C79D6 /* Project1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD262AF328F309DC006C79D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FD262AF428F309DC006C79D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				FD262AF728F309DC006C79D6 /* SceneDelegate.m */,
 				FD262AF928F309DC006C79D6 /* ViewController.h */,
 				FD262AFA28F309DC006C79D6 /* ViewController.m */,
+				29BA007228F5AB61006E17E9 /* SecondViewController.h */,
+				29BA007328F5AB61006E17E9 /* SecondViewController.m */,
 				FD262AFC28F309DC006C79D6 /* Main.storyboard */,
 				FD262AFF28F309DD006C79D6 /* Assets.xcassets */,
 				FD262B0128F309DD006C79D6 /* LaunchScreen.storyboard */,
@@ -266,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29BA007428F5AB61006E17E9 /* SecondViewController.m in Sources */,
 				FD262AFB28F309DC006C79D6 /* ViewController.m in Sources */,
 				FD262AF528F309DC006C79D6 /* AppDelegate.m in Sources */,
 				FD262B0628F309DD006C79D6 /* main.m in Sources */,

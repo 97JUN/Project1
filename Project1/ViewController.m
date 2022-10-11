@@ -31,7 +31,7 @@ static NSString *name = @"myNotification";
     
 //    [[NSNotificationCenter defaultCenter] postNotificationName:name object:nil ];
    
-    [[NSNotificationCenter defaultCenter] postNotificationName:@"updateLable" object:nil userInfo:@{
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"updateLabel" object:nil userInfo:@{
         @"text" : textViewText,
         @"name" : @"abc",
         @"age" : @"14",
@@ -50,7 +50,7 @@ static NSString *name = @"myNotification";
     
     
 //    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(saveData) name:name object:nil];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateLabel:) name:@"updateLable" object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateLabel:) name:@"updateLabel" object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardDidshow:) name:UIKeyboardDidShowNotification object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardDidHide:) name:UIKeyboardDidHideNotification object:nil];
    
