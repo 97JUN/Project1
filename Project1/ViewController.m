@@ -81,13 +81,7 @@ static NSString *name = @"myNotification";
     });
 }
 
-//-(void)textViewDidBeginEditing:(UITextView *)textView{
-//    MyButton.tintColor = UIColor.redColor;
-//}
-//
-//-(void)textViewDidEndEditing:(UITextView *)textView {
-//    MyButton.tintColor = UIColor.blueColor;
-//}
+
 
 
 @synthesize label;

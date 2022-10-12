@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		29BA007428F5AB61006E17E9 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BA007328F5AB61006E17E9 /* SecondViewController.m */; };
+		29BA007728F6E5DE006E17E9 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BA007628F6E5DE006E17E9 /* TableViewCell.m */; };
 		FD262AF528F309DC006C79D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD262AF428F309DC006C79D6 /* AppDelegate.m */; };
 		FD262AF828F309DC006C79D6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD262AF728F309DC006C79D6 /* SceneDelegate.m */; };
 		FD262AFB28F309DC006C79D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD262AFA28F309DC006C79D6 /* ViewController.m */; };
@@ -40,6 +41,8 @@
 /* Begin PBXFileReference section */
 		29BA007228F5AB61006E17E9 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		29BA007328F5AB61006E17E9 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		29BA007528F6E5DE006E17E9 /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		29BA007628F6E5DE006E17E9 /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 		FD262AF028F309DC006C79D6 /* Project1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD262AF328F309DC006C79D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FD262AF428F309DC006C79D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -116,6 +119,8 @@
 				29BA007228F5AB61006E17E9 /* SecondViewController.h */,
 				29BA007328F5AB61006E17E9 /* SecondViewController.m */,
 				FD262AFC28F309DC006C79D6 /* Main.storyboard */,
+				29BA007528F6E5DE006E17E9 /* TableViewCell.h */,
+				29BA007628F6E5DE006E17E9 /* TableViewCell.m */,
 				FD262AFF28F309DD006C79D6 /* Assets.xcassets */,
 				FD262B0128F309DD006C79D6 /* LaunchScreen.storyboard */,
 				FD262B0428F309DD006C79D6 /* Info.plist */,
@@ -272,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29BA007428F5AB61006E17E9 /* SecondViewController.m in Sources */,
+				29BA007728F6E5DE006E17E9 /* TableViewCell.m in Sources */,
 				FD262AFB28F309DC006C79D6 /* ViewController.m in Sources */,
 				FD262AF528F309DC006C79D6 /* AppDelegate.m in Sources */,
 				FD262B0628F309DD006C79D6 /* main.m in Sources */,
