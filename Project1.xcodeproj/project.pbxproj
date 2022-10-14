@@ -19,6 +19,7 @@
 		FD262B1028F309DD006C79D6 /* Project1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD262B0F28F309DD006C79D6 /* Project1Tests.m */; };
 		FD262B1A28F309DD006C79D6 /* Project1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD262B1928F309DD006C79D6 /* Project1UITests.m */; };
 		FD262B1C28F309DD006C79D6 /* Project1UITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD262B1B28F309DD006C79D6 /* Project1UITestsLaunchTests.m */; };
+		FD3946B528F95624008AD6F3 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3946B428F95624008AD6F3 /* ImageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		FD262B1528F309DD006C79D6 /* Project1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD262B1928F309DD006C79D6 /* Project1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Project1UITests.m; sourceTree = "<group>"; };
 		FD262B1B28F309DD006C79D6 /* Project1UITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Project1UITestsLaunchTests.m; sourceTree = "<group>"; };
+		FD3946B328F95624008AD6F3 /* ImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		FD3946B428F95624008AD6F3 /* ImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,8 @@
 				FD262AFC28F309DC006C79D6 /* Main.storyboard */,
 				29BA007528F6E5DE006E17E9 /* TableViewCell.h */,
 				29BA007628F6E5DE006E17E9 /* TableViewCell.m */,
+				FD3946B328F95624008AD6F3 /* ImageViewController.h */,
+				FD3946B428F95624008AD6F3 /* ImageViewController.m */,
 				FD262AFF28F309DD006C79D6 /* Assets.xcassets */,
 				FD262B0128F309DD006C79D6 /* LaunchScreen.storyboard */,
 				FD262B0428F309DD006C79D6 /* Info.plist */,
@@ -281,6 +286,7 @@
 				FD262AFB28F309DC006C79D6 /* ViewController.m in Sources */,
 				FD262AF528F309DC006C79D6 /* AppDelegate.m in Sources */,
 				FD262B0628F309DD006C79D6 /* main.m in Sources */,
+				FD3946B528F95624008AD6F3 /* ImageViewController.m in Sources */,
 				FD262AF828F309DC006C79D6 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
