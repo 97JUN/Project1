@@ -63,6 +63,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="Vis-OA-REJ">
+                                <rect key="frame" x="185" y="412" width="20" height="20"/>
+                            </activityIndicatorView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="gSJ-z0-9Cm">
                                 <rect key="frame" x="10" y="57" width="370" height="743"/>
                                 <subviews>
@@ -81,11 +84,14 @@
                             <constraint firstItem="iF8-QH-4cr" firstAttribute="trailing" secondItem="gSJ-z0-9Cm" secondAttribute="trailing" constant="10" id="AcR-Ht-ZJf"/>
                             <constraint firstItem="gSJ-z0-9Cm" firstAttribute="top" secondItem="iF8-QH-4cr" secondAttribute="top" constant="10" id="HAu-SZ-xvz"/>
                             <constraint firstItem="gSJ-z0-9Cm" firstAttribute="leading" secondItem="iF8-QH-4cr" secondAttribute="leading" constant="10" id="LEK-S6-dT9"/>
+                            <constraint firstItem="Vis-OA-REJ" firstAttribute="centerY" secondItem="stw-bG-voo" secondAttribute="centerY" id="Vzf-pV-EeI"/>
                             <constraint firstItem="iF8-QH-4cr" firstAttribute="bottom" secondItem="gSJ-z0-9Cm" secondAttribute="bottom" constant="10" id="cjP-jZ-Ps5"/>
+                            <constraint firstItem="Vis-OA-REJ" firstAttribute="centerX" secondItem="stw-bG-voo" secondAttribute="centerX" id="zsw-4y-BJa"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="MyImage" destination="3op-Qg-n1A" id="DBn-6Y-wst"/>
+                        <outlet property="MyIndicator" destination="Vis-OA-REJ" id="3cL-yT-iae"/>
                         <outlet property="MySwitch" destination="8gM-hB-jAd" id="Oe0-Ov-Gu2"/>
                     </connections>
                 </viewController>
@@ -106,14 +112,14 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="oom-Lv-8CR" customClass="TableViewCell">
-                                        <rect key="frame" x="0.0" y="50" width="390" height="21.333333969116211"/>
+                                        <rect key="frame" x="0.0" y="50" width="390" height="21"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="oom-Lv-8CR" id="QEg-tD-9nD">
-                                            <rect key="frame" x="0.0" y="0.0" width="390" height="21.333333969116211"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="390" height="21"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Png-Gi-b40">
-                                                    <rect key="frame" x="0.0" y="0.0" width="390" height="21.333333333333332"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="390" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>

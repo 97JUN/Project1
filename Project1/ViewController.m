@@ -51,7 +51,7 @@ static NSString *name = @"myNotification";
     
 //    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(saveData) name:name object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateLabel:) name:@"updateLabel" object:nil];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardDidshow:) name:UIKeyboardDidShowNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardDidshow:) name:UIKeyboardDidShowNotification  object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardDidHide:) name:UIKeyboardDidHideNotification object:nil];
    
     
