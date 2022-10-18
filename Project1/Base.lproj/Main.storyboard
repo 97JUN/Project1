@@ -95,6 +95,7 @@
                         <outlet property="MyImage" destination="3op-Qg-n1A" id="DBn-6Y-wst"/>
                         <outlet property="MyIndicator" destination="Vis-OA-REJ" id="3cL-yT-iae"/>
                         <outlet property="MySwitch" destination="8gM-hB-jAd" id="Oe0-Ov-Gu2"/>
+                        <outlet property="MyView" destination="Pfk-oT-ofM" id="68y-EM-EqG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gXs-0s-DTv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

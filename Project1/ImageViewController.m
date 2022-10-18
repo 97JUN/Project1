@@ -8,13 +8,15 @@
 #import "ImageViewController.h"
 
 @interface ImageViewController (){
-    NSTimer *timerRepeat;
-    int timerCount;
+    
+    
+    
 }
 
 @end
 
-@implementation ImageViewController
+@implementation ImageViewController 
+
 
 
 - (void)viewDidLoad {
@@ -22,10 +24,9 @@
     [MySwitch setOn: false];
     [self.MyImage setImage:[UIImage imageNamed:@"40"]];
     
-//    [MySwitch setEnabled:NO];
-//    [MyIndicator startAnimating];
-//
+    UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(gesture:)];
     
+    [MyView addGestureRecognizer:tapGesture];
     
   //  [self performSelector:@selector(ImageMake) withObject:nil afterDelay:2.0];
     
@@ -43,19 +44,42 @@
 //        MySwitch.enabled = NO;
 //    }
 //
+ 
     
-    
-}
-- (IBAction)tapGesture:(id)sender {
-    
-    [MyIndicator startAnimating];
-    
-    
-    [self performSelector:@selector(ImageMake) withObject:nil afterDelay:2.0];
-    
-    
+    //TapGestureRecognizer.enabled = NO;
     
 }
+-(void)gesture: (UIGestureRecognizer *)recognizer {
+  
+        
+        
+        [MyIndicator startAnimating];
+        
+    
+    //    recognizer.enabled = NO;
+    
+  
+        
+        [self performSelector:@selector(ImageMake) withObject:nil afterDelay:2.0];
+    
+   
+        
+        
+}
+
+
+
+
+//- (IBAction)tapGesture:(id)sender {
+//    
+//    [MyIndicator startAnimating];
+//    
+//    
+//    [self performSelector:@selector(ImageMake) withObject:nil afterDelay:2.0];
+//    
+//    
+//    
+//}
 
 //- (void)onGesture{
 //    //Gesture가 들어오는 곳
@@ -69,13 +93,19 @@
 -(void)ImageMake {
     [MyIndicator stopAnimating];
     
+    
     if (MySwitch.isOn == true){
         [self.MyImage setImage:[UIImage imageNamed:@"40"]];
         [MySwitch setOn:NO];
         
-    }else if (MySwitch.isOn == false) {
+        
+        
+        
+    }else {
         [self.MyImage setImage:[UIImage imageNamed:@"ic_control_call-mic_off"]];
         [MySwitch setOn:YES];
+        
+        
     }
     
     
@@ -92,5 +122,6 @@
 @synthesize MyImage;
 @synthesize MySwitch;
 @synthesize MyIndicator;
+@synthesize MyView;
 
 @end

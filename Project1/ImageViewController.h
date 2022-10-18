@@ -14,6 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
     
 }
 
+@property (weak, nonatomic) IBOutlet UIView *MyView;
 
 @property (weak, nonatomic) IBOutlet UISwitch *MySwitch;
 @property (weak, nonatomic) IBOutlet UIImageView *MyImage;
